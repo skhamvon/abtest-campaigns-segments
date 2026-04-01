@@ -1,0 +1,9 @@
+{
+  "id": "segment-france-only",
+  "name": "France uniquement",
+  "description": "Cible uniquement les utilisateurs dont le pays est FR.",
+  "criteria": {
+    "country": ["FR"]
+  }
+}
+

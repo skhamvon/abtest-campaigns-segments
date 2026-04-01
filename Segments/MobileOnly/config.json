@@ -1,0 +1,9 @@
+{
+  "id": "segment-mobile-only",
+  "name": "Mobiles uniquement",
+  "description": "Cible uniquement les utilisateurs sur device mobile.",
+  "criteria": {
+    "device": ["mobile"]
+  }
+}
+

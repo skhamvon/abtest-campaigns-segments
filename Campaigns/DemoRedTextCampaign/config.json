@@ -3,7 +3,7 @@
   "name": "Démo frontend – texte rouge",
   "type": "frontend",
   "status": "running",
-  "segments": [],
+  "segments": ["segment-mobile-only"],
   "variations": [
     {
       "id": "control",
