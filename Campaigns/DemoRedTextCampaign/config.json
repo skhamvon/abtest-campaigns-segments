@@ -1,0 +1,22 @@
+{
+  "id": "demo-frontend-red-text",
+  "name": "Démo frontend – texte rouge",
+  "type": "frontend",
+  "status": "running",
+  "segments": [],
+  "variations": [
+    {
+      "id": "control",
+      "name": "Original",
+      "trafficAllocation": 50
+    },
+    {
+      "id": "variant-red",
+      "name": "Texte rouge partout",
+      "trafficAllocation": 50,
+      "jsPath": "http://localhost:5001/Campaigns/DemoRedTextCampaign/variant-red/script.js",
+      "cssPath": "http://localhost:5001/Campaigns/DemoRedTextCampaign/variant-red/style.css"
+    }
+  ]
+}
+
