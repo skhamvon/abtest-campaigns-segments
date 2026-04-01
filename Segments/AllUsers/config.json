@@ -1,0 +1,7 @@
+{
+  "id": "all-users",
+  "name": "Tous les utilisateurs",
+  "description": "Segment par défaut qui matche tout le monde.",
+  "criteria": {}
+}
+
