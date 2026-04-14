@@ -1,22 +1,23 @@
 {
-  "id": "demo-frontend-red-text",
+  "id": 10002,
   "name": "Démo frontend – texte rouge",
   "type": "frontend",
   "status": "running",
-  "segments": ["segment-mobile-only"],
+  "segments": [1003],
+  "sharedJsPath": "http://localhost:5001/Campaigns/DemoRedTextCampaign/shared/script.js",
+  "sharedCssPath": "http://localhost:5001/Campaigns/DemoRedTextCampaign/shared/style.css",
   "variations": [
     {
-      "id": "control",
+      "id": 100020,
       "name": "Original",
       "trafficAllocation": 50
     },
     {
-      "id": "variant-red",
+      "id": 100021,
       "name": "Texte rouge partout",
       "trafficAllocation": 50,
-      "jsPath": "http://localhost:5001/Campaigns/DemoRedTextCampaign/variant-red/script.js",
-      "cssPath": "http://localhost:5001/Campaigns/DemoRedTextCampaign/variant-red/style.css"
+      "jsPath": "http://localhost:5001/Campaigns/DemoRedTextCampaign/variant-1/script.js",
+      "cssPath": "http://localhost:5001/Campaigns/DemoRedTextCampaign/variant-1/style.css"
     }
   ]
 }
-

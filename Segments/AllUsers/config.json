@@ -1,7 +1,6 @@
 {
-  "id": "all-users",
+  "id": 1000,
   "name": "Tous les utilisateurs",
-  "description": "Segment par défaut qui matche tout le monde.",
-  "criteria": {}
+  "description": "Aucune règle (segment universel)",
+  "rules": []
 }
-

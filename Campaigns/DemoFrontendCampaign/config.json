@@ -1,22 +1,23 @@
 {
-  "id": "demo-frontend-campaign",
+  "id": 10001,
   "name": "Démo frontend – bandeau",
   "type": "frontend",
   "status": "running",
   "segments": [],
+  "sharedJsPath": "http://localhost:5001/Campaigns/DemoFrontendCampaign/shared/script.js",
+  "sharedCssPath": "http://localhost:5001/Campaigns/DemoFrontendCampaign/shared/style.css",
   "variations": [
     {
-      "id": "control",
+      "id": 100010,
       "name": "Original",
       "trafficAllocation": 50
     },
     {
-      "id": "variant-a",
+      "id": 100011,
       "name": "Bandeau promo violet",
       "trafficAllocation": 50,
-      "jsPath": "http://localhost:5001/Campaigns/DemoFrontendCampaign/variant-a/script.js",
-      "cssPath": "http://localhost:5001/Campaigns/DemoFrontendCampaign/variant-a/style.css"
+      "jsPath": "http://localhost:5001/Campaigns/DemoFrontendCampaign/variant-1/script.js",
+      "cssPath": "http://localhost:5001/Campaigns/DemoFrontendCampaign/variant-1/style.css"
     }
   ]
 }
-

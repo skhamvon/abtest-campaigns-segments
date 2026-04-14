@@ -1,9 +1,11 @@
 {
-  "id": "segment-mobile-only",
-  "name": "Mobiles uniquement",
-  "description": "Cible uniquement les utilisateurs sur device mobile.",
-  "criteria": {
-    "device": ["mobile"]
-  }
+  "id": 1003,
+  "name": "Mobile uniquement",
+  "rules": [
+    {
+      "type": "device",
+      "operator": "isAnyOf",
+      "values": ["mobile"]
+    }
+  ]
 }
-
