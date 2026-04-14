@@ -1,7 +1,0 @@
-/* Variation A – ajoute une bordure violette autour de la page */
-
-html.abtest-variant-a body {
-  box-sizing: border-box;
-  border: 6px solid rebeccapurple;
-}
-

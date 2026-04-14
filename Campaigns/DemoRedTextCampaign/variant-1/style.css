@@ -1,0 +1,5 @@
+/* Variation 1 – applique une couleur rouge à tout le texte */
+
+html.abtest-variant-1 body {
+  color: #dc2626;
+}
