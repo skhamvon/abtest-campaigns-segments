@@ -1,0 +1,11 @@
+{
+  "id": 1001,
+  "name": "France uniquement",
+  "rules": [
+    {
+      "type": "country",
+      "operator": "isAnyOf",
+      "values": ["FR"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": 10000,
+  "name": "Test Mano",
+  "type": "frontend",
+  "status": "draft",
+  "createdAt": "2026-04-16T09:50:32.343Z",
+  "lastStatusChangeAt": "2026-04-16T09:50:32.343Z",
+  "segments": [],
+  "variations": [
+    {
+      "id": 100000,
+      "name": "Original",
+      "trafficAllocation": 50
+    },
+    {
+      "id": 100001,
+      "name": "Variation 1",
+      "trafficAllocation": 0,
+      "jsPath": "http://localhost:5001/Campaigns/Test_Mano/variant-1/script.js",
+      "cssPath": "http://localhost:5001/Campaigns/Test_Mano/variant-1/style.css"
+    }
+  ],
+  "privacyMode": "measurement",
+  "sharedJsPath": "http://localhost:5001/Campaigns/Test_Mano/shared/script.js",
+  "sharedCssPath": "http://localhost:5001/Campaigns/Test_Mano/shared/style.css"
+}

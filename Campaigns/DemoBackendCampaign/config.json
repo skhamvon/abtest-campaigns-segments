@@ -1,0 +1,30 @@
+{
+  "id": 10003,
+  "name": "Démo backend — feature flags lab",
+  "type": "backend",
+  "privacyMode": "technical",
+  "status": "running",
+  "createdAt": "2026-04-16T12:00:00.000Z",
+  "firstPublishedAt": "2026-04-16T12:00:00.000Z",
+  "lastStatusChangeAt": "2026-04-16T12:00:00.000Z",
+  "tags": ["demo", "backend", "lab"],
+  "segments": [],
+  "variations": [
+    {
+      "id": 100030,
+      "name": "Contrôle",
+      "trafficAllocation": 50,
+      "featureFlags": {
+        "lab_backend_warm_background": false
+      }
+    },
+    {
+      "id": 100031,
+      "name": "Variante fond chaud",
+      "trafficAllocation": 50,
+      "featureFlags": {
+        "lab_backend_warm_background": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "domain": ".example.com",
+  "acceptanceCookie": {
+    "name": "analytics_consent",
+    "value": "granted"
+  }
+}
